@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\aa87162\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'aot-rollup-win' ]
+2 info using npm@3.10.6
+3 info using node@v4.4.4
+4 verbose run-script [ 'preaot-rollup-win', 'aot-rollup-win', 'postaot-rollup-win' ]
+5 info lifecycle portfolio@3.0.3~preaot-rollup-win: portfolio@3.0.3
+6 silly lifecycle portfolio@3.0.3~preaot-rollup-win: no script for preaot-rollup-win, continuing
+7 info lifecycle portfolio@3.0.3~aot-rollup-win: portfolio@3.0.3
+8 verbose lifecycle portfolio@3.0.3~aot-rollup-win: unsafe-perm in lifecycle true
+9 verbose lifecycle portfolio@3.0.3~aot-rollup-win: PATH: C:\Users\aa87162\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\projects\ControlCenter\CCNT_Content\emgcms\Angular2Demo\portfolioSrc\node_modules\.bin;C:\Program Files (x86)\Serena\Dimensions\CM\prog64;C:\Program Files (x86)\Serena\Dimensions\CM\prog;C:\tibco\tibrv\8.4\bin;C:\tibco\tibrv\8.3\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\WINDOWS\TEMP\LRE698B.tmp\bin;C:\Program Files\apache-maven-3.0.5-bin\apache-maven-3.0.5\bin;C:\Apache\Apache2.2\conf\openssl.cnf;C:\Users\aa87162\AppData\Roaming\npm\node_modules\karma;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\CREDANT\Shield v7.3\;C:\Program Files (x86)\Git\cmd;C:\cygwin64\bin;C:\projects\gradle-2.2.1\bin;C:\projects\ControlCenter\CCNT_Content\emgcms\qCmsRepository\angular\node_modules\protractor\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\nodejs\;;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\aa87162\AppData\Roaming\npm
+10 verbose lifecycle portfolio@3.0.3~aot-rollup-win: CWD: C:\projects\ControlCenter\CCNT_Content\emgcms\Angular2Demo\portfolioSrc
+11 silly lifecycle portfolio@3.0.3~aot-rollup-win: Args: [ '/d /s /c', 'rollup -c aot-rollup-config.js' ]
+12 silly lifecycle portfolio@3.0.3~aot-rollup-win: Returned: code: 1  signal: null
+13 info lifecycle portfolio@3.0.3~aot-rollup-win: Failed to exec aot-rollup-win script
+14 verbose stack Error: portfolio@3.0.3 aot-rollup-win: `rollup -c aot-rollup-config.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (C:\Users\aa87162\AppData\Roaming\npm\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Users\aa87162\AppData\Roaming\npm\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:827:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid portfolio@3.0.3
+16 verbose cwd C:\projects\ControlCenter\CCNT_Content\emgcms\Angular2Demo\portfolioSrc
+17 error Windows_NT 6.1.7601
+18 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Users\\aa87162\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "aot-rollup-win"
+19 error node v4.4.4
+20 error npm  v3.10.6
+21 error code ELIFECYCLE
+22 error portfolio@3.0.3 aot-rollup-win: `rollup -c aot-rollup-config.js`
+22 error Exit status 1
+23 error Failed at the portfolio@3.0.3 aot-rollup-win script 'rollup -c aot-rollup-config.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the portfolio package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     rollup -c aot-rollup-config.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs portfolio
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls portfolio
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

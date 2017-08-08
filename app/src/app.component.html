@@ -1,0 +1,39 @@
+<div class="header">
+	<div class="middle" style="width: inherit;">
+		<div class="row">
+			<div class="col-sm-6">
+				<h2 style="color: #ffffff;text-align:center;"><strong>Praveen chand Kasarla</strong></h2>
+			</div>
+			<div class="col-sm-6" style="padding-right:0px;">
+				<nav id="menu" class="nav">
+					<ul>
+						<li>
+							<a [routerLink]="['/contact']" [class.active]="'/contact' | isRouteActive" title="Contact"><span  class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span><span>Contact</span></a>
+						</li>
+						<li>
+							<a [routerLink]="['/portfolio']" [class.active]="'/portfolio' | isRouteActive" title="Portfolio"><span  class="icon"><i class="fa fa-id-card" aria-hidden="true"></i></span><span>Portfolio</span></a>
+						</li>
+						<li>
+							<a [routerLink]="['/']" [class.active]="'/' | isRouteActive" title="Home">
+								<span  class="icon"> <i class="fa fa-home" aria-hidden="true"></i></span><span>Home</span>
+							</a>
+						</li>
+						
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+
+<router-outlet></router-outlet>
+<!-- <div class="footer bgd-alpha" style="position: relative;height: 50px;">
+	<div class="middle" style="width: inherit;">
+		<div class="row">
+			<div class="col12">
+					<h2 class="clr-epsilon">About</h2>
+				<p>This project is developed by Praveen chand Kasarla and the source code is available in github </p> 
+			</div>
+		</div>
+	</div>
+</div> -->
